@@ -1,0 +1,31 @@
+.header {
+    text-align: center; color: red;
+}
+
+.table {
+    width: 70%;
+    margin: 0px auto;
+    border-spacing: 0px;
+}
+
+.table tr th {
+    color: green;
+}
+
+.table tr td, .table tr th {
+    border-left: solid 1px #CCC;
+    border-top: solid 1px #CCC;
+    margin: 0px;
+    text-align: center;
+    line-height: 35px;
+    word-break: break-all;
+    vertical-align: top;
+}
+
+.table tr td:last-child, .table tr th:last-child {
+    border-right: solid 1px #CCC;
+}
+
+.table tr:last-child td {
+    border-bottom: solid 1px #CCC;
+}
